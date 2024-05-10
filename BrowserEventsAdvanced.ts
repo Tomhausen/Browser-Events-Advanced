@@ -12,7 +12,7 @@ namespace browserEvents{
     //% block="getMouseY"
     //% group="Mouse"
     //% weight=1
-    export function getMousey(): number {
+    export function getMouseY(): number {
         return mouseY();
     }
 
