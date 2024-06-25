@@ -3,21 +3,20 @@
     "version": "0.0.5",
     "description": "",
     "dependencies": {
-        "device": "*",
-        "browser-events": "*"
+        "device": "*"
     },
     "files": [
-        "main.blocks",
         "main.ts",
         "README.md",
-        "main.py",
-        "BrowserEventsAdvanced.ts"
+        "BrowserEventsAdvanced.ts",
+        "keyboard.ts",
+        "shims.d.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "targetVersions": {
-        "target": "2.0.2",
+        "target": "2.0.3",
         "pxt": "8.5.2",
         "targetId": "arcade"
     },
